@@ -4,7 +4,7 @@
 makeCacheMatrix <- function(x = matrix()) {
 
   m<-NULL
-  as.data.frame(m)
+  
   set<-function(y){
     ## function to set a matrix
     x<<-y
